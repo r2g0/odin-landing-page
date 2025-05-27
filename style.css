@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    background: #eee;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    padding: 16px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    justify-content: space-between;
+
+
+}
+
+.description {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    list-style-type: none;
+    margin-right: 250px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 250px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.desc-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    white-space: wrap;
+    width: 400px;
+}
+
+.secondary-text {
+    white-space: wrap;
+    width: 400px;
+    color: #E5E7EB;
+}
+
+button {
+    color:white;
+    max-width: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: none;
+    border: none;
+}
+
+.image img {
+    width: 400px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 32px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    
+}
+
+.info-imgs {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+
+.object img {
+    width: 140px;
+    height: 140px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.object p {
+    white-space: wrap;
+    width: 140px;
+    text-align: center;
+}
+
+.quote-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #E5E7EB;
+}
+.quote {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  white-space: wrap;
+  width: 760px;
+  font-style: light italic;
+  color: #1F2937;
+}
+.writer {
+  align-self: flex-end;
+  font-style: italic;
+  margin-right: 600px;
+}
+
+.call2act {
+    background-color: #3882f6;
+    margin: 100px 500px 100px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+.call2act button {
+    border: 2px solid white;
+
+}
+
+footer {
+    background-color: #1F2937;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
